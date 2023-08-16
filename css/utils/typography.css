@@ -1,0 +1,13 @@
+.text-lg {
+  font-size: 4rem; /*64px */
+  line-height: 1.125;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.text-md {
+  font-size: 1.5rem; /* 24 */
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}

@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #000000;
+  background-color: var(--black);
 }
 
 .header {
@@ -22,7 +22,6 @@
 
 .header-menu a {
   padding: 16px 0;
-  color: #ffffff;
   display: inline-block;
   font-size: 1.125rem; /* 18px*/
   line-height: 32px;
@@ -36,7 +35,7 @@
   display: block;
   height: 2px;
   width: 0px;
-  background-color: #ffffff;
+  background-color: var(--white);
   margin-top: 3px;
   transition: 0.5s ease;
   position: absolute;

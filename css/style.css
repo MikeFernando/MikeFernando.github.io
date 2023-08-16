@@ -1,4 +1,11 @@
+/* GLOBAL */
 @import "./global/global.css";
+@import "./utils/typography.css";
+@import "./global/colors.css";
 @import "./global/header.css";
+
+/* UTILIDADES */
+@import "./utils/button.css";
+
+/* HOME */
 @import "./home/introducao.css";
-@import "./utils/components.css";

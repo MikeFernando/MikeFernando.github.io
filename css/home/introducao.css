@@ -1,13 +1,12 @@
 .introducao-bg {
   background-color: #000000;
+  box-shadow: inset 0 -120px 0 #fff;
 }
 
 .introducao {
   max-width: 1200px;
   margin: 0 auto;
-  color: #ffffff;
-  padding-left: 20px;
-  box-shadow: inset 0 -120px 0 #fff;
+  padding: 0 20px;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -19,32 +18,18 @@
   padding-bottom: 200px;
 }
 
-.introducao-conteudo h1 {
+.introducao h1 {
   margin-bottom: 32px;
-  font-size: 4rem; /*64px */
-  line-height: 1.125;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
 }
 
-.introducao-conteudo h1 span {
-  color: #ffbb00;
-}
-
-.introducao-conteudo p {
+.introducao p {
   margin-bottom: 20px;
-  font-size: 1.5rem; /* 24 */
-  line-height: 1.5;
-  color: #b2b2b2;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
 }
 
 .introducao img {
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
-  padding-right: -20px;
 }
 
 @media (max-width: 1200px) {
@@ -85,5 +70,6 @@
   .introducao img {
     height: 300px;
     width: 100%;
+    object-fit: cover;
   }
 }
